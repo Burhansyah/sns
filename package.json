@@ -1,0 +1,24 @@
+{
+  "name": "sns",
+  "version": "1.0.0",
+  "description": "Open list of npm script from current project, allow to run one of them",
+  "repository": "https://github.com/DKunin/sns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "test2": "echo \"Error: no test specified 2\""
+  },
+  "author": "DKunin",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^0.12.0",
+    "shelljs": "^0.6.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "sns": "./index.js"
+  }
+}
